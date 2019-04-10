@@ -49,6 +49,8 @@ end
 
 group :production do
 	#gem 'libv8', '3.16.14.7'
+  #gem 'kgio', '~> 2.11.2'
+  gem 'unicorn'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
